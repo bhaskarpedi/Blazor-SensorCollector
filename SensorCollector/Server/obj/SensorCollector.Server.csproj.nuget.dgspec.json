@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Server\\SensorCollector.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Client\\SensorCollector.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Client\\SensorCollector.Client.csproj",
+        "projectName": "SensorCollector.Client",
+        "projectPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Client\\SensorCollector.Client.csproj",
+        "packagesPath": "C:\\Users\\PediredB\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PediredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\SensorCollector.Shared.csproj": {
+                "projectPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\SensorCollector.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Server\\SensorCollector.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Server\\SensorCollector.Server.csproj",
+        "projectName": "SensorCollector.Server",
+        "projectPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Server\\SensorCollector.Server.csproj",
+        "packagesPath": "C:\\Users\\PediredB\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PediredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Client\\SensorCollector.Client.csproj": {
+                "projectPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Client\\SensorCollector.Client.csproj"
+              },
+              "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\SensorCollector.Shared.csproj": {
+                "projectPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\SensorCollector.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\SensorCollector.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\SensorCollector.Shared.csproj",
+        "projectName": "SensorCollector.Shared",
+        "projectPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\SensorCollector.Shared.csproj",
+        "packagesPath": "C:\\Users\\PediredB\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\Blazor-SensorCollector\\SensorCollector\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PediredB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
