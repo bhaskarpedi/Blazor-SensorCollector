@@ -1,16 +1,22 @@
 ﻿@page "/counter"
 
-<h1>Counter</h1>
+<h1>Fibonacci sequence</h1>
 
-<p>Current count: @currentCount</p>
+<p>Fibonacci sequence: @sequence</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-    private int currentCount = 0;
+    private string sequence = "1 1";
+    private long currentFibNo = 1;
+    private long nextFibNo = 1;
+
 
     private void IncrementCount()
     {
-        currentCount++;
+        long temp = currentFibNo + nextFibNo;
+        currentFibNo = nextFibNo;
+        nextFibNo = temp;
+        sequence = sequence + " " + temp.ToString();
     }
 }
